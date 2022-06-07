@@ -472,7 +472,7 @@ overflow: hidden;
     height: 100%;
 
     transform: translateY(101%);
-    transition: transform 250ms var(--timing);
+    transition: transform 250ms var(--timing), box-shadow 250ms var(--timing) ;
 
 
     font-size: 18px;
@@ -526,8 +526,8 @@ border-left: 1px solid #EEEEEE;
 .footer{
     font-style: normal;
     background-color: #2F303A;
-   padding-top:  60px;
-   padding-bottom: 60px; 
+    padding-top:  60px;
+    padding-bottom: 60px; 
 }
 .lfooter{
     margin-bottom: 20px;
